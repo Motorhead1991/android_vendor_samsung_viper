@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES := \
 # All the blobs necessary for crespo
 PRODUCT_COPY_FILES += \
     vendor/samsung/viper/proprietary/bin/pvrsrvinit:system/bin/pvrsrvinit \
+    vendor/samsung/viper/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/viper/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/viper/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/viper/proprietary/vendor/firmware/bcm4329.hcd:system/vendor/firmware/bcm4329.hcd \
