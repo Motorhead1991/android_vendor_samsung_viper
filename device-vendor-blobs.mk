@@ -16,7 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
-    vendor/samsung/viper/proprietary/libsecril-client.so:obj/lib/libsecril-client.so
+    vendor/samsung/viper/proprietary/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
 # All the blobs necessary for crespo
 PRODUCT_COPY_FILES += \
